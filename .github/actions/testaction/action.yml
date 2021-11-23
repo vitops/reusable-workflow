@@ -1,0 +1,10 @@
+name: 'Test'
+description: 'Test'
+
+runs:
+  using: 'composite'
+  steps:
+    - name: 'test'
+      shell: pwsh
+      run: |
+        write-output "hello world"
